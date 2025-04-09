@@ -1,0 +1,26 @@
+23:31:07.200 [main] INFO  testCases.TC002_LoginTest - ********** Starting TC_002_LoginPage *******
+23:33:18.160 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\opencart121\testng.xml"
+23:33:18.545 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\opencart121\testng.xml
+
+23:33:21.353 [main] INFO  testCases.TC002_LoginTest - ********** Starting TC_002_LoginPage *******
+23:34:05.629 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\opencart121\testng.xml"
+23:34:06.013 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\opencart121\testng.xml
+
+23:36:46.772 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\opencart121\testng.xml"
+23:36:47.134 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\opencart121\testng.xml
+
+23:41:38.106 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\opencart121\testng.xml"
+23:41:38.463 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\opencart121\testng.xml
+
+23:44:52.416 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\opencart121\testng.xml"
+23:44:52.808 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\opencart121\testng.xml
+
+23:47:52.619 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\HP\eclipse-workspace\opencart121\testng.xml"
+23:47:52.994 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\HP\eclipse-workspace\opencart121\testng.xml
+

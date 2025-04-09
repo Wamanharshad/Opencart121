@@ -8,13 +8,13 @@
     <parameter name="os" value="Windows"/>
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC003_loginDDT">
+      <class name="testCases.TC003_AddTocartIphone">
         <methods>
-          <include name="SetUp"/>
           <include name="tearDown"/>
-          <include name="verify_loginDDT" invocation-numbers="1"/>
+          <include name="SetUp"/>
+          <include name="verify_AddcartIphone"/>
         </methods>
-      </class> <!-- testCases.TC003_loginDDT -->
+      </class> <!-- testCases.TC003_AddTocartIphone -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Master Suite] -->

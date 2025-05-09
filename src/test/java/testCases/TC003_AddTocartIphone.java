@@ -37,5 +37,9 @@ public class TC003_AddTocartIphone extends BaseClass {
 			logger.error("Test failed: Success message not found or incorrect.");
 			Assert.fail("iPhone was not added to cart. Actual message: " + checktext);
 		}
+		
+		Ad.clickonViewCart();
+		
+		
 	}
 }

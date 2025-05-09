@@ -28,7 +28,7 @@ import java.util.Properties;
 public class BaseClass {
 	public Logger logger; // Log4j
 	public static WebDriver driver;
-public Properties p;
+    public Properties p;
 	@BeforeClass(groups= {"Sanity","Regression","Master","Datadrivern"})
 	@Parameters({ "os", "browser" })
 	public void SetUp(String os, String br) throws IOException {
@@ -37,9 +37,7 @@ public Properties p;
 		p= new Properties();
 		p.load(file);
 		
-		
-		logger = LogManager.getLogger(this.getClass());
-		
+		logger = LogManager.getLogger(this.getClass());	
 		switch (br.toLowerCase()) {
 		case "chrome":
 			driver = new ChromeDriver();
@@ -54,12 +52,10 @@ public Properties p;
 			System.out.println("Invalid browser name ...");
 			return;
 		}
-
 		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(p.getProperty("Appurl"));
 		driver.manage().window().maximize();
-
 	}
 
 	@AfterClass(groups= {"Sanity","Regression","Master","Datadrivern"})
@@ -67,14 +63,12 @@ public Properties p;
 		driver.quit();
 	}
 	
-	public void ExplicitWait(WebElement element) {
-		
+	public void ExplicitWait(WebElement element) {	
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOf(element));
 	}
-
+	
 	public String randomString() {
-
 		String generatedstring = RandomStringUtils.randomAlphabetic(4);
 		return generatedstring;
 	}

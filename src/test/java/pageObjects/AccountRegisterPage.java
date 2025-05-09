@@ -8,7 +8,6 @@ public class AccountRegisterPage extends BasePage {
 
 	public AccountRegisterPage(WebDriver driver) {
 		super(driver);
-
 	}
 
 	@FindBy(id = "input-firstname")

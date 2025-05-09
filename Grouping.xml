@@ -7,7 +7,7 @@
 			<include name="Master"/>
 				<include name="Sanity" />
 				<!-- <include name="Regression"/> -->
-			<!-- <include name="Master" />  -->
+			<!-- <include name="Master"/>  -->
 			</run>
 		</groups>
 		<parameter name="os" value="Windows" />

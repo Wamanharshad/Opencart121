@@ -31,9 +31,11 @@ public class AddCartiPhone extends BasePage {
 	@FindBy(xpath="//div[contains(@class, 'alert') and contains(@class, 'alert-success')]")
 	WebElement text;
 	
+@FindBy(xpath="//button[@data-loading-text='Loading...']")	
+WebElement Items;
 	
-	
-
+@FindBy(xpath="(//a[@href='https://tutorialsninja.com/demo/index.php?route=checkout/cart'])[1]")
+WebElement viewcart;
 	public void ClickHome() {
 		home.click();
 	}
@@ -58,6 +60,13 @@ public class AddCartiPhone extends BasePage {
 	        return null;
 	    }
 	}
+	    public void clickonViewCart() {
+	    	Items.click();
+	    	viewcart.click();
+	    	
+	    	
+	    }
+	}
 
 
-}
+
